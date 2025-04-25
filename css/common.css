@@ -1,0 +1,193 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.item{
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  background: #f6f6fe;
+  margin-bottom: 24px;
+
+
+}
+.title-h{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 1.33333;
+letter-spacing: 0.04em;
+color: #2e2f42;
+padding-left: 16px;
+/* margin-bottom: 16px; */
+margin-top: 0;
+
+}
+.list{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+margin-bottom: 8px;
+padding-top: 8px;
+padding-left: 16px;
+
+}
+
+
+.gallery-flex {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item {
+  flex: 0 1 calc(33.333% - 16px);
+  box-sizing: border-box;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.output-body{
+
+border-radius: 8px;
+padding: 24px;
+background-color: #fff;
+}
+#name-input{
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+padding: 8px 16px; 
+
+
+}
+
+::placeholder{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+
+
+
+}
+.output-title{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 1.33333;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+
+
+.login-form {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: flex-start; 
+  gap: 16px; 
+  border-radius: 8px;
+padding: 24px;
+width: 408px;
+background: #fff;
+}
+
+
+label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  
+ 
+}
+
+
+input[type="email"], input[type="password"] {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-top: 16px;
+}
+
+button {
+border-radius: 8px;
+padding: 8px 16px;
+width: 86px;
+height: 40px;
+border: none;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+.change-color{
+  border-radius: 8px;
+padding: 8px 16px;
+width: 148px;
+height: 40px;
+background: #4e75ff;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+.widget{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border-radius: 8px;
+padding: 100px 88px;
+width: 345px;
+height: 280px;
+ 
+}
